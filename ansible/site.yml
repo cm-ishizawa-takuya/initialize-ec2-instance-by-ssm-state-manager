@@ -1,0 +1,6 @@
+---
+- name: deploy web server
+  hosts: localhost
+  roles:
+    - common
+    - nginx
